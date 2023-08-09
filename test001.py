@@ -5,13 +5,16 @@ import time
 # Import library
 import adi
 
+print ( f"Hello! test001.py running." )
 
 # Create radio object
 sdr = adi.Pluto ()
+print ( sdr )
 # Configure properties
 sdr.rx_rf_bandwidth = 4000000
 # Get data
 data = sdr.rx ()
+print ( data )
 while True :
-    print ( data )
     time.sleep ( 3 )
+    print ( data )
