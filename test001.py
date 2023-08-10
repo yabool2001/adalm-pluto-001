@@ -8,7 +8,8 @@ import adi
 print ( f"Hello! test001.py running." )
 
 # Create radio object
-sdr = adi.Pluto ()
+# sdr = adi.Pluto () # Wersja na komputer Win10 MSI
+sdr = adi.Pluto ('ip:192.168.2.1') # Wersja na komputer Win11 GO3 
 print ( sdr )
 # Configure properties
 sdr.rx_rf_bandwidth = 4000000
