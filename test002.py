@@ -8,7 +8,8 @@ from scipy import signal
 import time
 
 # Create radio
-sdr = adi.Pluto ()
+# sdr = adi.Pluto () # Wersja na komputer Win10 MSI
+sdr = adi.Pluto ('ip:192.168.2.1') # Wersja na komputer Win11 GO3 
 
 # Configure properties
 sdr.rx_rf_bandwidth = 4000000
