@@ -9,8 +9,8 @@ print ( f"Hello! test001.py running." )
 
 # Create radio object
 # sdr = adi.Pluto () # Wersja na komputer Win10 MSI
-# sdr = adi.Pluto ( uri = "usb:1.24.5" )
-sdr = adi.Pluto ('ip:192.168.2.1') # Wersja na komputer Win11 GO3 
+sdr = adi.Pluto ( uri = "usb:4.7.5" ) # Wersja z Libiio release >= v0.25. W zależności od komputer może byc różny adres
+# sdr = adi.Pluto ('ip:192.168.2.1') # Wersja na komputer Win11 GO3 
 print ( sdr )
 # Configure properties
 sdr.rx_rf_bandwidth = 4000000
