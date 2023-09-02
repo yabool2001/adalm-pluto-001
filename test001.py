@@ -1,5 +1,6 @@
 # 2023.06.08
 # Source: https://wiki.analog.com/resources/tools-software/linux-software/pyadi-iio
+# check address of the Pluto device "iio_info -s"
 
 import time
 # Import library

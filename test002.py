@@ -1,5 +1,6 @@
 # 2023.06.08
 # Source: https://github.com/analogdevicesinc/pyadi-iio/blob/master/examples/pluto.py
+# check address of the Pluto device "iio_info -s"
 
 import adi
 import matplotlib.pyplot as plt
