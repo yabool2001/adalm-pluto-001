@@ -12,11 +12,7 @@ import time
 # sdr = adi.Pluto () # Wersja na komputer Win10 MSI
 # sdr = adi.Pluto ( uri = "usb:4.7.5" ) # Wersja z Libiio release >= v0.25 na MW50-SV0
 sdr = adi.Pluto ( uri = "usb:1.5.5" ) # Wersja z Libiio release >= v0.25 na RPi400
-<<<<<<< HEAD
 # sdr = adi.Pluto ('ip:192.168.2.1') # Wersja na komputer Win11 GO3 
-=======
-sdr = adi.Pluto ('ip:192.168.2.1') # Wersja na komputer Win11 GO3 
->>>>>>> 19ecbe0813f5f749157862fcd317a92fb4f72ac9
 
 # Configure properties
 sdr.rx_rf_bandwidth = 4000000
