@@ -10,7 +10,7 @@ import time
 # Create radio
 # sdr = adi.Pluto () # Wersja na komputer Win10 MSI
 # sdr = adi.Pluto ( uri = "usb:4.7.5" ) # Wersja z Libiio release >= v0.25 na MW50-SV0
-sdr = adi.Pluto ( uri = "usb:1.1.5" ) # Wersja z Libiio release >= v0.25 na RPi400
+sdr = adi.Pluto ( uri = "usb:1.5.5" ) # Wersja z Libiio release >= v0.25 na RPi400
 sdr = adi.Pluto ('ip:192.168.2.1') # Wersja na komputer Win11 GO3 
 
 # Configure properties
