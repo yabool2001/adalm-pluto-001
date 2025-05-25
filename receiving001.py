@@ -6,7 +6,7 @@ import adi
 import matplotlib.pyplot as plt
 
 sample_rate = 1e6 # Hz
-center_freq = 915e6 # Hz
+center_freq = 2_400_000_000 # Hz
 num_samps = 100000 # number of samples per call to rx()
 
 sdr = adi.Pluto ( "ip:192.168.2.1" )
